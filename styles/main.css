@@ -7314,15 +7314,16 @@ a.credit {
   }
   
   .perso_li   {
-    padding-left: 50px;
-    background: url("../iconos/chequeo.gif") left 10% no-repeat;
+    padding-left: 2.2rem;
+    background: url("../iconos/chequeo.gif") left 1% no-repeat;
     background-size: 1.6rem 1.6rem;
     background-repeat: no-repeat;
     list-style-position: outside;
   }
 
+
 .titulo_lista{
-  font-size: 22px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -7330,7 +7331,7 @@ a.credit {
 }
 
 .titulo_lista2{
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -7340,11 +7341,40 @@ a.credit {
 .titulo_emergente{
   color:mediumseagreen;
   text-align: center;
+  font-size: 2rem;
+
 }
 
 .encamina{
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+
+  .perso_ul {
+    padding-left: 0rem;
+    list-style-type: none;
+    }
+
+  .perso_li   {
+    background: url("../iconos/chequeo.gif") left 2%  no-repeat;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    list-style-position: inside;
+  }
+
+  .titulo_emergente{
+    color:mediumseagreen;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+  
+  }
+  
+}
+
+
 
 #becas:target{
   opacity:1;
